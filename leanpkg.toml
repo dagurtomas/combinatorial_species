@@ -1,0 +1,8 @@
+[package]
+name = "combinatorial_species"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.48.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "c99203f729a405bb87cda9e55cbecc091348011f"}
